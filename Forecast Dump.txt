@@ -1,0 +1,283 @@
+PS C:\Development Source> python -u "c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py"
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2969.381, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2971.160, Time=0.01 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2971.156, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2968.448, Time=0.00 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2973.167, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]
+Total fit time: 0.100 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=3210.319, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=3209.776, Time=0.01 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=3208.580, Time=0.01 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=3208.326, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=3207.052, Time=0.06 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=3206.405, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=3205.506, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=3203.514, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=3207.782, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=3204.412, Time=0.02 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=3205.062, Time=0.03 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0]
+Total fit time: 0.204 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=3173.525, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=3160.445, Time=0.01 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=3162.354, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=3171.540, Time=0.00 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=3162.011, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=3161.609, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=3163.490, Time=0.09 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=3158.458, Time=0.01 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=3159.954, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=3159.577, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=3160.233, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=3161.531, Time=0.03 sec
+
+Best model:  ARIMA(1,1,0)(0,0,0)[0]
+Total fit time: 0.242 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=3069.984, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=3071.984, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=3071.984, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=3067.988, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=3073.984, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]
+Total fit time: 0.086 seconds
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2266.459, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2268.457, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2268.457, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2264.641, Time=0.00 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2270.457, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]
+Total fit time: 0.091 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2533.730, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2532.805, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2533.569, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2536.924, Time=0.00 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=2528.589, Time=0.03 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=2530.065, Time=0.06 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2529.499, Time=0.08 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=2529.475, Time=0.01 sec
+
+Best model:  ARIMA(2,1,0)(0,0,0)[0] intercept
+Total fit time: 0.253 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2867.026, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2866.474, Time=0.01 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2866.575, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2865.030, Time=0.00 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2868.169, Time=0.04 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]
+Total fit time: 0.097 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2585.573, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2582.152, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2581.928, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2583.800, Time=0.00 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2583.956, Time=0.01 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=2583.929, Time=0.01 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=2585.936, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=2580.112, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=2582.111, Time=0.02 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=2582.113, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=2580.330, Time=0.01 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=2584.121, Time=0.01 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0]
+Total fit time: 0.180 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=3030.897, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=3032.567, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=3032.531, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=3028.905, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=3020.279, Time=0.10 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=3035.551, Time=0.07 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=3035.577, Time=0.07 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=3033.707, Time=0.05 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=3033.655, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=3031.981, Time=0.22 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=3018.318, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=3030.539, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=3030.575, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=3033.561, Time=0.04 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=3033.587, Time=0.03 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=3031.717, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=3031.666, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=3029.990, Time=0.17 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]
+Total fit time: 0.970 seconds
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2172.982, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2174.672, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2174.647, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2171.235, Time=0.00 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2174.744, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]
+Total fit time: 0.106 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2578.360, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2579.966, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2579.997, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2579.720, Time=0.00 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2580.526, Time=0.07 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0] intercept
+Total fit time: 0.138 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2712.634, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2693.811, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2696.993, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2710.634, Time=0.00 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=2694.708, Time=0.03 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2691.174, Time=0.04 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=2692.596, Time=0.09 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=2692.379, Time=0.06 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=2696.475, Time=0.04 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=2694.196, Time=0.08 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=2689.174, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=2694.993, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=2691.811, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=2690.596, Time=0.05 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=2690.379, Time=0.04 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=2694.475, Time=0.02 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=2692.708, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=2692.197, Time=0.05 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]
+Total fit time: 0.649 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2500.540, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2474.100, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2466.274, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2499.996, Time=0.00 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2468.071, Time=0.06 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=2468.095, Time=0.06 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=2470.000, Time=0.14 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=2465.042, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=2466.885, Time=0.02 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=2466.906, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=2472.747, Time=0.01 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=2468.795, Time=0.07 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0]
+Total fit time: 0.486 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=3145.149, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=3147.137, Time=0.02 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=3147.136, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=3143.162, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=3134.170, Time=0.12 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.17 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=inf, Time=0.19 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=3148.669, Time=0.07 sec
+ ARIMA(2,1,0)(0,0,0)[0] intercept   : AIC=3148.762, Time=0.03 sec
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=inf, Time=0.11 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=3132.216, Time=0.07 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=3145.150, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=3145.151, Time=0.01 sec
+ ARIMA(2,1,1)(0,0,0)[0]             : AIC=inf, Time=0.14 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=inf, Time=0.12 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=3146.685, Time=0.03 sec
+ ARIMA(2,1,0)(0,0,0)[0]             : AIC=3146.778, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,0)[0]             : AIC=inf, Time=0.08 sec
+
+Best model:  ARIMA(1,1,1)(0,0,0)[0]
+Total fit time: 1.237 seconds
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
+Performing stepwise search to minimize aic
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=2127.338, Time=0.01 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=2129.338, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=2129.338, Time=0.02 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=2125.537, Time=0.00 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=2128.435, Time=0.05 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]
+Total fit time: 0.112 seconds
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+C:\Users\Seunghwan\AppData\Local\Programs\Python\Python311\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+c:\Development Source\24_2R_DATASCIENCE_PROJECT\forecast_KAMIS.py:26: FutureWarning: 'M' is deprecated and will be removed in a future version, please use 'ME' instead.
+  future_index = pd.date_range(start=price_series.index[-1], periods=n_future + 1, freq='M')[1:]
